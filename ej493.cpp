@@ -90,7 +90,7 @@ void fillArrays(){
       }else{
         iter = 0;
         if (count >= limit) {
-          direction = 0;
+          direction = 1;
           break;
         }
       }
@@ -107,7 +107,7 @@ void fillArrays(){
         iter = 0;
         level++;
         if (count >= limit) {
-          direction = 0;
+          direction = 2;
           break;
         }
       }
@@ -123,7 +123,7 @@ void fillArrays(){
       }else{
         iter = 0;
         if (count >= limit) {
-          direction = 0;
+          direction = 3;
           break;
         }
       }
